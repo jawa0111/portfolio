@@ -1,0 +1,82 @@
+*{
+    
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+.skillDesc{
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+    overflow: hidden;
+    width:100vw;
+    max-width: 65rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.container{
+    
+    padding: 30px 20%;
+    padding-bottom: 100px;
+}
+
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 10px;
+    color: red;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr)) ;
+    gap:15px;
+}
+
+.container .box-container .box{
+    
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.container .box-container .box img{
+    height: 70px;
+}
+
+.container .box-container .box h3{
+    color: black;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.container .box-container .box p{
+    color: black;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media screen and (max-width:768px) 
+{
+    .container{
+        padding: 20px;
+    }
+}
