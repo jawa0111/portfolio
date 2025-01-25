@@ -15,8 +15,9 @@ const Intro = () => {
                 Demonstrate unwavering confidence in crafting impactful digital experiences,<br/>
                 leveraging skills and insights to excel as a Web Developer.</p>  
                
-            </div> 
-            <img src={bg} alt="profile" className="bg"></img> 
+            </div>
+             
+            <img src={bg} alt="profile" className="bg" ></img> 
         </section>
     )
 }

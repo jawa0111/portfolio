@@ -8,7 +8,7 @@ const Skills = () =>{
     return (
         <section id='skills'>
             <span className='skillTitle'>What I Do</span>
-            <span className='skillDesc'>An IT undergraduate student possesses proficiency in programming languages like Java, Python, C++, JavaScript, PHP, and Kotlin, 
+            <span className="skillDesc" style={{ marginLeft: "10px" }}>An IT undergraduate student possesses proficiency in programming languages like Java, Python, C++, JavaScript, PHP, and Kotlin, 
                 along with knowledge of Agile and Scrum methodologies. They excel in problem-solving, algorithm design, and debugging, while also 
                 demonstrating strong communication, teamwork, and time management skills. </span>
              <div className='skillBars'>
